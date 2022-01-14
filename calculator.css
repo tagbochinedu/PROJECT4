@@ -45,11 +45,4 @@ button {
    box-shadow: orangered !important;
 }
 
-.clockwise {
-    transition: transform 2s;
-    transform: rotate(360deg);
-}
-.anticlockwise {
-    transition: transform 2s;
-    transform: rotate(-360deg);
-}
+
