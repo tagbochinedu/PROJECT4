@@ -77,8 +77,15 @@ function remove() {
 } 
 
 function dlt() {
-    display.innerHTML = display.innerHTML.slice(0,-1);
-    ans.pop()
+    if (display.innerHTML == 'cannot divide') {
+        display.innerHTML = '';
+        ans = []
+    }
+    else {
+        display.innerHTML = display.innerHTML.slice(0,-1);
+        ans.pop()
+    }
+    
 }
 
 function show() {
